@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persian to English Translator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Persian to English</h1>
+        <div class="text-box">
+            <textarea id="persianText" placeholder="Persian text will appear here" readonly></textarea>
+        </div>
+        <div class="button-container">
+            <button id="startButton" class="mic-button">
+                <img src="microphone.png" alt="Microphone">
+            </button>
+        </div>
+        <canvas id="waveform"></canvas>
+        <div class="text-box">
+            <textarea id="englishText" placeholder="Translated English text will appear here" readonly></textarea>
+        </div>
+        <button id="speakButton" class="speak-button">Speak Translation</button>
+        <footer>Milad Raeisi</footer>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
